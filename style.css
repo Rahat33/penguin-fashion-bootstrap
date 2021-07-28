@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #E5E5E5;;
+}
+
 /* header style */
 
 .bg-header {
@@ -50,6 +54,21 @@
 
 main .money-color {
     color: #FABE4C;
+}
+
+main .custom-rounded {
+    border-radius: 15px;
+}
+
+/* about section */
+
+main .about a {
+    text-decoration: none;
+    color: #3E3E3E;
+} 
+
+main .about h5 a {
+    color: #3f4162;
 }
 
 /* media query for 
