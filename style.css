@@ -12,7 +12,7 @@
 
 .bg-header {
     background-color: #FFFBF0;
-    max-height: 100vh;
+    max-height: 100%;
 }
 
 /* navbar style */
@@ -34,13 +34,23 @@
     color: #3f4162;
 }
 
-.banner-text .btn-buy {
+.btn-buy {
     color: #FFF;
     background-color: #AEC459;
     font-size: 1.1rem;
+    border-radius: 10px;
 }
 
 
+/* women section style */
+
+.women-section h2, .card-title {
+    color: #363958;
+}
+
+main .money-color {
+    color: #FABE4C;
+}
 
 /* media query for 
 mid range device like tablet */
