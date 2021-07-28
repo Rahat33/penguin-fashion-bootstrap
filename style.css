@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    color: #3E3E3E;
+    margin: 0;
+    padding: 0;
+}
+
+/* header style */
+
+.bg-header {
+    background-color: #FFFBF0;
+    max-height: 100vh;
+}
+
+/* navbar style */
+#navbarTogglerDemo02 .nav-item a {
+    font-size: 1.3rem;
+}
+
+/* banner style */
+
+.banner-text h1 span{
+    font-size: 6rem;
+}
+
+.font-orange {
+    color: #FABE4C;
+}
+
+.font-navy {
+    color: #3f4162;
+}
+
+.banner-text .btn-buy {
+    color: #FFF;
+    background-color: #AEC459;
+    font-size: 1.1rem;
+}
+
+
+
+/* media query for 
+mid range device like tablet */
+
+
+@media only screen and (max-width: 768px){
+  
+    .banner-text h1 span {
+        font-size: 4rem;
+    }
+}
